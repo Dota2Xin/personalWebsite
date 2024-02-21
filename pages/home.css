@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(116, 168, 220);
+    margin: 0;
+}
+
+.me {
+    display: flex;
+    align-items: flex-start; /* Align items to the start (top) of the flex container */
+    justify-content: space-between; /* Space evenly between the flex items */
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.profile-image {
+    margin-top:30px;
+    height: 295.98px;
+    width: 230px; /* Adjust width as needed */
+    border:2px solid black;
+}
+
+
+.about {
+    width: 100%; /* Adjust width as needed */
+    margin-left: 20px; /* Add spacing between image and text */
+}
+
+.centerAligned {
+    text-align: center;
+    margin-top: 20px; /* Add spacing between about me and "This Site" section */
+    width: 90%;
+    margin:0 auto;
+}
+
+.banner-image {
+    width:100%;
+    height:300px;
+    margin-top:0;
+    padding: 0;
+    border-bottom:4px solid black;
+}
+
+.banner {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0;
+    padding: 0;
+    width:100%;
+}
+
+.center{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
