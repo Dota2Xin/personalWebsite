@@ -1,6 +1,9 @@
 body {
     background-color: rgb(116, 168, 220);
     margin: 0;
+    background-image: url('SNRBackground.jpg');
+    background-size:cover;
+    background-position:center;
 }
 
 .bodyNotes {
@@ -47,8 +50,11 @@ body {
 
 .center{
     width:70%;
+    background-color: rgb(116, 168, 220);
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
